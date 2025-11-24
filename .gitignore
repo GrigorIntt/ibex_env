@@ -1,0 +1,5 @@
+lowrisc-toolchain-*/
+p312-ibex-venv/
+lib64lsout.txt
+riscv-isa-sim-cosim/build/
+spike-cosim/build/

@@ -1,0 +1,14 @@
+export RISCV_TOOLCHAIN=/home/grigorgri/ibex/lowrisc-toolchain-gcc-rv32imcb-x86_64-20250710-1
+export RISCV_GCC="$RISCV_TOOLCHAIN/bin/riscv32-unknown-elf-gcc"
+export RISCV_OBJCOPY="$RISCV_TOOLCHAIN/bin/riscv32-unknown-elf-objcopy"
+export SPIKE_PATH=/home/grigorgri/ibex/spike-cosim
+export PKG_CONFIG_PATH="$SPIKE_PATH/lib/pkgconfig"
+export RISCV_ISA_SIM=/home/grigorgri/ibex/riscv-isa-sim-cosim
+export IBEX_ROOT=/home/grigorgri/ibex/ibex
+
+source /home/grigorgri/ibex/p312-ibex-venv/bin/activate
+cd /home/grigorgri/ibex/ibex/dv/uvm/core_ibex
+
+export QUESTA_HOME=/siemens/software/questasim/2024.2/questasim
+
+export ACTIVATE_IBEX="/home/grigorgri/ibex/activate-all"
