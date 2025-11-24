@@ -1,3 +1,4 @@
 [submodule "ibex"]
 	path = ibex
 	url = https://github.com/haykp/ibex.git
+	branch = apply-dv-questa-changes
